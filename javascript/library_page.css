@@ -1,0 +1,21 @@
+body{
+    background-color: #000000;
+}
+
+.library__title{
+    font-size: 5rem;
+    text-align: center;
+    color: #ffff
+}
+
+#booksContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.book-card{
+    background-color: #10066f;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1rem;  
+}
